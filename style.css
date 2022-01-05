@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
 :root{
-  --red:#1e30da;
+  --red:#fff;;
 }
 
 *{
@@ -291,7 +291,7 @@ svg circle {
 .btn{
   display: inline-block;
   padding:.8rem 3rem;
-  border:.2rem solid var(--red);
+  border:rgba(0,178,255,1);
   color:var(--red);
   cursor: pointer;
   font-size: 1.7rem;
@@ -300,6 +300,19 @@ svg circle {
   overflow: hidden;
   z-index: 0;
   margin-top: 1rem;
+  padding: 10px  ;
+  margin: 10px;
+  
+  box-shadow: 0 0 5px rgba(0,178,255,1),
+  0 0 10px rgba(0,178,255,1),
+  0 0 20px rgba(0,178,255,1),
+  0 0 40px rgba(38,104,127,1),
+  0 0 80px rgba(38,104,127,1),
+  0 0 90px rgba(38,104,127,1),
+  0 0 100px rgba(38,104,127,1),
+  0 0 140px rgba(38,104,127,1),
+  0 0 180px rgba(38,104,127,1);
+  
 }
 
 .btn::before{
@@ -308,9 +321,10 @@ svg circle {
   top:0; right: 0;
   width:0%;
   height:100%;
-  background:var(--red);
+  background:rgba(0,178,255,1);
   transition: .3s linear;
   z-index: -1;
+  
 }
 
 .btn:hover::before{
@@ -338,7 +352,20 @@ header{
 header .logo{
   font-size: 2.5rem;
   font-weight: bolder;
-  color:rgb(32, 15, 182);
+  color:white;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+header .logo:hover{
+  text-shadow:
+  0 0 5px rgba(0,178,255,1),
+  0 0 10px rgba(0,178,255,1),
+  0 0 20px rgba(0,178,255,1),
+  0 0 40px rgba(38,104,127,1),
+  0 0 80px rgba(38,104,127,1),
+  0 0 90px rgba(38,104,127,1),
+  0 0 100px rgba(38,104,127,1),
+  0 0 140px rgba(38,104,127,1),
+  0 0 180px rgba(38,104,127,1);
 }
 
 header .logo i{
@@ -354,19 +381,49 @@ header .navbar a{
 
 header .navbar a:hover{
   color:var(--red);
+  text-shadow: 	
+  0 0 5px rgba(0,178,255,1),
+  0 0 10px rgba(0,178,255,1),
+  0 0 20px rgba(0,178,255,1),
+  0 0 40px rgba(38,104,127,1),
+  0 0 80px rgba(38,104,127,1),
+  0 0 90px rgba(38,104,127,1),
+  0 0 100px rgba(38,104,127,1),
+  0 0 140px rgba(38,104,127,1),
+  0 0 180px rgba(38,104,127,1);
 }
 
 #menu-bar{
   font-size: 3rem;
   cursor: pointer;
-  color:#666;
+  color:white;
   border:.1rem solid #666;
   border-radius: .3rem;
   padding:.5rem 1.5rem;
   display: none;
+
+
 }
 
+#menu-bar:hover{
+  text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+
+
+
+
 .home{
+  
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
@@ -376,11 +433,18 @@ header .navbar a:hover{
   background-size: cover;
   background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  
 }
 
 .home .content{
   flex:1 1 40rem;
-  padding-top: 6.5rem;
+  padding-top: 20rem;
+
+}
+
+.home .content h3{
+  color: white;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 .home .image{
@@ -476,7 +540,7 @@ header .navbar a:hover{
 }
 
 .home .content h3{
-  font-size: 5rem;
+  font-size: 8rem;
   color:rgb(149, 200, 247);
 }
 
@@ -1196,4 +1260,30 @@ body .popular {
     width:100%;
   }
 
+}
+
+
+.glitch {
+  font-size: 8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
+  text-shadow: 0.05em 0 0 rgba(0, 0, 255, 0.75) ,
+    -0.025em -0.05em 0 rgba(38,104,127,1),
+    0.025em 0.05em 0 rgba(0,178,255,1);
+}
+
+.neon2 {
+	color: #fff;
+	text-shadow:
+		0 0 5px rgb(156, 156, 156),
+		0 0 10px rgb(63, 64, 65),
+		0 0 20px rgb(54, 54, 54),
+		0 0 40px rgb(37, 37, 37),
+		0 0 80px rgb(36, 36, 36),
+		0 0 90px rgb(43, 43, 43),
+		0 0 100px rgb(41, 41, 41),
+		0 0 140px rgb(19, 18, 18),
+		0 0 180px rgb(0, 0, 0);
 }

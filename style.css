@@ -447,6 +447,8 @@ header .navbar a:hover{
   font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+
+
 .home .image{
   flex:1 1 40rem;
 }
@@ -543,6 +545,9 @@ header .navbar a:hover{
   font-size: 8rem;
   color:rgb(149, 200, 247);
 }
+
+
+
 
 .home .content p{
   font-size: 1.7rem;

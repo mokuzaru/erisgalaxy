@@ -1,0 +1,184 @@
+.team-tittle{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    font-size: 48px;
+}
+
+.team{
+    padding: 50px 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.containerT {
+    width: 80%;
+    margin: 50px auto;
+}
+.row{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row p{
+    margin: 20px 0 0;
+    font-size: 18px;
+    padding-left: 20px;
+    border-left: 5px solid rgba(0,178,255,1);
+}
+
+.row .columm{
+    padding: 10px;
+    margin: 8px 10px;
+    position: relative;
+    width:calc(25% - 20px) ;
+    min-height: 250px;
+  
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.row .columm:before{
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(198, 9, 236);
+    z-index: 1;
+    transition: .5s;
+    mix-blend-mode: soft-light;
+
+}
+.row .columm:hover:before{
+    
+    bottom: 0;
+ 
+
+}
+.row .columm:hover:before .none{
+    
+    bottom: -100%;
+ 
+
+}
+
+
+
+
+.centerT{
+    margin-top: 80px;
+   
+  
+}
+.centerB{
+
+    padding-bottom: 40px;
+  
+}
+.row .columm .imgBox{
+    position: relative;
+}
+
+.row .columm .imgBox img{
+    width: 100%;
+    transition: 2s;
+}
+
+.row .columm:hover .imgBox img{
+    width: 100%;
+    transform: scale(1.5);
+}
+.row .columm .details{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0,.9);
+    width: 100%;
+    transition: .5S;
+    text-align: center;
+}
+.row .columm:hover .details{
+    bottom: 0;
+}
+.row .columm .details h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.row .columm .details span {
+   
+    color: rgb(198, 9, 236);
+    font-size: 12px;
+}
+
+
+
+.row .columm .details  a {
+   
+   padding: 0 10px;
+   font-size: 20px;
+   color: #fff;
+   
+  
+}
+.row .columm .details a .fa{
+   
+   transition: .5s;
+   
+ }
+ .row .columm .details  a:hover .fa{
+   
+  transform: rotateY(360deg);
+    
+  }
+
+
+
+@media (max-width:992px){
+    .containerT {
+        width: 100%;
+        margin: 0;
+    }
+
+    .row .columm{
+        
+        width:calc(50% - 20px) ;
+        
+    }
+
+    .row .columm:hover:before .none{
+    
+        bottom: -100%;
+     
+    
+    }
+
+    
+    
+
+}
+
+@media (max-width:600px){
+    .containerT {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .row .columm{
+        margin-left: 30px;
+        width:calc(100% - 20px) ;
+        
+    }
+
+  
+    
+
+}

@@ -1269,14 +1269,14 @@ body .popular {
 
 
 .glitch {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
 
-  text-shadow: 0.05em 0 0 rgba(0, 0, 255, 0.75) ,
-    -0.025em -0.05em 0 rgba(38,104,127,1),
-    0.025em 0.05em 0 rgba(0,178,255,1);
+  text-shadow: 0.05em 0 0 rgba(0,178,255,1) ,
+    -0.025em -0.05em 0 rgba(0,178,255,1) ,
+    0.025em 0.05em 0 white;
 }
 
 .neon2 {

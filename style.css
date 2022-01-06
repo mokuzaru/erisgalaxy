@@ -36,9 +36,9 @@ section{
 
 .heading{
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   padding:1rem;
-  color:#666;
+  color:rgb(16, 64, 255);
 }
 
 .heading span{
@@ -457,10 +457,10 @@ header .navbar a:hover{
   background-color: none;
   position: relative;
   top: 150px;
-  width:120%;
-  right: 10%;
+  width:150%;
+  right: 17%;
   padding:1rem;
-  animation:float 2.5s linear infinite;
+  animation:float 3.5s linear infinite;
 }
 .portada {
 	width: 100%;
@@ -555,89 +555,35 @@ header .navbar a:hover{
   padding:1rem 0;
 }
 
+/*START HISTORY*/
+
 .speciality.speciality{
   background:url(./images/roadmap_bg.jpg);
 }
 
-.speciality .noticia {
-  width: 100%;
-  margin: 20px auto;
-  font-size: 1.7rem;
-  color: #fff;
-  padding: 15px;
-}
-
-.speciality .noticia img.izquierda {
-  float: left;
-  margin-right: 50px;
-}
-
-.speciality .noticia img.derecha {
-  float: right;
-  margin-left: 15px;
-}
-
-.speciality .reset {
-  clear: both;
-}
-
-/*.speciality .box-container{
+.speciality .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
 }
 
-.speciality .box-container .box{
-  float: right;
-  top: 50%;
-  background-color: none;
-  flex:1 1 30rem;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  cursor: pointer;
-  border-radius: .5rem;
-}
-
 .speciality .box-container .box .image{
-  height:100%;
-  width: auto;
-  object-fit: cover;
-  position: absolute;
-  top:-100%; right: 330px;;
+  height:70%;
+  width: 50%;
   text-align: center;
-}
 
-.speciality .box-container .box .content{
-  height: 500px;
-  float: left;
-  top: 30%;
-  text-align: center;
-}
-
-/*.speciality .box-container .box .content img{
-  margin:1.5rem 0;
-}
-
-.speciality .box-container .box .content h3{
-  font-size: 2.5rem;
-  color:rgb(23, 17, 145);
+  margin:50px auto;
+	display:block;
 }
 
 .speciality .box-container .box .content p{
-  font-size: 1.6rem;
-  color:rgb(255, 254, 254);
-  padding:1rem 0;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.7rem;
+  color:rgb(255, 255, 255);
+  padding:1rem 2;
 }
 
-.speciality .box-container .box:hover .image{
-  top:0;
-}
-
-.speciality .box-container .box:hover .content{
-  transform: translateY(100%);
-  animation-duration: 8s;
-}*/
+/*END HISTORY*/
 
 .popular.popular{
  background:url(./images/market.png);
@@ -1168,8 +1114,8 @@ body .popular {
   padding:.5rem 1.5rem;
   font-size: 4rem;
   background:var(--red);
-  color:#fff;
-  border-radius: .5rem;
+  color:#000fe6; 
+  border-radius: .8rem;
   transition: 1s linear;
   z-index: 1000;
 }

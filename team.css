@@ -46,7 +46,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(198, 9, 236);
+    background: rgba(0,178,255,1);
     z-index: 1;
     transition: .5s;
     mix-blend-mode: soft-light;
@@ -89,7 +89,7 @@
 
 .row .columm:hover .imgBox img{
     width: 100%;
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .row .columm .details{
     position: absolute;
@@ -115,7 +115,7 @@
 
 .row .columm .details span {
    
-    color: rgb(198, 9, 236);
+    color: rgba(0,178,255,1);
     font-size: 12px;
 }
 

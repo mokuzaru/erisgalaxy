@@ -7,12 +7,12 @@
 
 .team{
     padding: 50px 0;
-    height: 100vh;
+    height: 150vh;
     box-sizing: border-box;
 }
 
 .containerT {
-    width: 80%;
+    width: 60%;
     margin: 50px auto;
 }
 .row{
@@ -22,6 +22,7 @@
 }
 
 .row p{
+    color: #fff;
     margin: 20px 0 0;
     font-size: 18px;
     padding-left: 20px;

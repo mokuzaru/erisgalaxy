@@ -461,7 +461,7 @@ header .navbar a:hover{
   background-color: none;
   position: relative;
   top: 130px;
-  width:140%;
+  width:100%;
   right: 25%;
   padding:1rem;
   animation:float 3.4s linear infinite;
@@ -1112,6 +1112,10 @@ body .popular {
   overflow: hidden;
 }
 
+.gallerys .box-container .box-none {
+  display: none;
+}
+
 .gallerys .box-container .box img{
   height:100%;
   width:100%;
@@ -1150,6 +1154,7 @@ body .popular {
 
 .review {
   background:url(./images/market.png);
+ 
 }
 
 .review .box-container{
@@ -1201,6 +1206,7 @@ body .popular {
 /*START PARTNER*/
 
 .order.order{
+  padding-top: 40px;
   background-color: black;
   min-height: 50vh;
   
@@ -1217,25 +1223,60 @@ body .popular {
 
 
 .order .imagen img{
-  width:330px;
+  width:300px;
   height:77px;
-  float:left;
+  float:right;
+  left: 20px;
  margin:10px 10px 0 0;
 }
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1030px){
   .contenedor-imagenes{
       width: 95%;
   }
+
+  .gallerys .box-container .box-none {
+    top: 70px;
+    right: -5px;
+    height: 40rem;
+    flex: 1 1 20rem;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:1030px){
+  .gallerys .box-container .box-none{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:778px){
   .contenedor-imagenes{
       width: 90%;
   }
   .contenedor-imagenes .imagen{
       width: 48%;
+  }
+  .home .image img{
+    width:90%;
+    animation:float 3.4s linear infinite;
+    bottom: 0;
+  }
+  .gallerys .box-container .box-none{
+    display: block;
+  }
+
+
+
+}
+@media screen and (max-width:589px){
+  .gallerys .box-container .box-none{
+    display: none;
   }
 }
 
@@ -1244,11 +1285,23 @@ body .popular {
       font-size:22px;
   }
   .contenedor-imagenes{
-      width: 98%;
+      width: 90%;
   }
   .contenedor-imagenes .imagen{
-      width: 80%;
+      width: 70%;
   }
+
+  .box{
+    width: 100%;
+  }
+.box img{
+  width: 90%;
+}
+
+.order .imagen img{
+  width: 300px;
+}
+  
 }
 
 /*END PARTNER*/
@@ -1324,6 +1377,7 @@ body .popular {
   }
 
   section{
+    
     padding:2rem;
   }
 
@@ -1338,7 +1392,7 @@ body .popular {
   header .navbar{
     position: absolute;
     top:100%; left: 0; right:0;
-    background: #f7f7f7;
+    background: black;
     border-top: .1rem solid rgba(0,0,0,.1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
@@ -1353,7 +1407,7 @@ body .popular {
     display: block;
     border:.2rem solid rgba(0,0,0,.1);
     border-left:.5rem solid var(--red);
-    background:#fff;
+    background:black;
   }
 
 }

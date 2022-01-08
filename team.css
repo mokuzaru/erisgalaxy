@@ -70,7 +70,7 @@
 
 
 .centerT{
-    margin-top: 80px;
+    margin-top: 20px;
    
   
 }
@@ -90,7 +90,8 @@
 
 .row .columm:hover .imgBox img{
     width: 100%;
-    transform: scale(1.1);
+    transform: scale(1.2);
+
 }
 .row .columm .details{
     position: absolute;
@@ -152,8 +153,34 @@
     box-sizing: border-box;
     overflow: hidden;
   }
+  @media (max-width:1030px){
+    .row .columm{
+        
+        width:calc(50% - 20px) ;
+        
+        
+    }
+    
+.row .none {
+    width:calc(30% - 20px) ;
+    min-height: 400px;
+    }
+  }
 
 
+  @media (max-width:1370px){
+    .row .columm{
+        
+        width:calc(30% - 20px) ;
+        
+        
+    }
+    
+.row .none {
+    width:calc(30% - 20px) ;
+    min-height: 400px;
+    }
+  }
 
 @media (max-width:992px){
     .containerT {

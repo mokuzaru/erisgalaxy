@@ -91,6 +91,7 @@
 .row .columm:hover .imgBox img{
     width: 100%;
     transform: scale(1.2);
+
 }
 .row .columm .details{
     position: absolute;

@@ -291,7 +291,7 @@ svg circle {
 .btn{
   display: inline-block;
   padding:.8rem 3rem;
-  border:rgba(0,178,255,1);
+  border:rgb(0, 125, 130);
   color:var(--red);
   cursor: pointer;
   font-size: 1.7rem;
@@ -453,8 +453,6 @@ header .navbar a:hover{
   font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-
-
 .home .image{
   flex:1 1 40rem;
 }
@@ -462,11 +460,11 @@ header .navbar a:hover{
 .home .image img{
   background-color: none;
   position: relative;
-  top: 150px;
-  width:150%;
-  right: 17%;
+  top: 130px;
+  width:140%;
+  right: 25%;
   padding:1rem;
-  animation:float 3.5s linear infinite;
+  animation:float 3.4s linear infinite;
 }
 .portada {
 	width: 100%;
@@ -555,10 +553,21 @@ header .navbar a:hover{
 
 
 
-.home .content p{
-  font-size: 1.7rem;
+.home .content .glit p {
+  /*font-size: 1.9rem;
   color:rgb(255, 255, 255);
-  padding:1rem 0;
+  padding:1rem 0;*/
+  color: #fff;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
+
+  text-shadow: 0.05em 0 0 rgba(0,178,255,1) ,
+    -0.025em -0.05em 0 rgba(0,178,255,1) ,
+    0.025em 0.05em 0 white;
 }
 
 /*START HISTORY*/
@@ -582,11 +591,18 @@ header .navbar a:hover{
 	display:block;
 }
 
-.speciality .box-container .box .content p{
+.speciality .box-container .box .glit p{
+  color: #fff;
   font-family: 'Saira Semi Condensed', sans-serif;
   font-size: 1.7rem;
-  color:rgb(255, 255, 255);
-  padding:1rem 2;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
+
+  text-shadow: 0.05em 0 0 rgba(0,178,255,1) ,
+    -0.025em -0.05em 0 rgba(0,178,255,1) ,
+    0.025em 0.05em 0 white;
 }
 
 /*END HISTORY*/
@@ -644,7 +660,9 @@ header .navbar a:hover{
 
 /* START TOKENOMICS */
 .step.step {
-  background:url(./images/market.png);
+  background:url(./images/nave2.png);
+  min-height: 100vh;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 
 .steps{
@@ -667,19 +685,35 @@ header .navbar a:hover{
 
 }
 
-.steps .box h3{
-  text-align: left;
-  font-size: 3rem;
-  color:rgb(255, 255, 255);
-  padding:1rem;
+.steps .box .glit h3 {
+  color: rgb(255, 255, 255);
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
+
+  text-shadow: 0.05em 0 0 rgba(0,178,255,1) ,
+    -0.025em -0.05em 0 rgba(0,178,255,1) ,
+    0.025em 0.05em 0 white;
 }
 
-.steps .box p{
-  text-align: left;
+.steps .box .glit p{
+  color: #fff;
   font-family: 'Saira Semi Condensed', sans-serif;
   font-size: 1.7rem;
-  color:rgb(255, 255, 255);
-  padding:1rem 2;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  top:50px;
+
+  
+
+
+  text-shadow: 0.05em 0 0 rgba(0,178,255,1) ,
+    -0.025em -0.05em 0 rgba(0,178,255,1) ,
+    0.025em 0.05em 0 white;
   
 }
 
@@ -688,6 +722,7 @@ header .navbar a:hover{
 /*start ROADMAP*/
 .gallery {
   background: url(./images/market.png);
+  min-height: 100vh;
   width: 100%;
   height: 100%;
   display: flex;
@@ -760,10 +795,24 @@ h1 {
   right: 47px;
 }
 
-.resume-content {
-  width:100%;
+.gallery .resume-content {
+ align-items: center;
   padding: 0 20px;
 }
+
+.gallery .resume-content .container {
+  width:100%;
+  padding: 0 20px;
+  position: center;
+}
+
+.gallery .resume-content .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  position: center;
+}
+
 
 .gallery .resume-header {
   padding-bottom: 16px;
@@ -782,7 +831,14 @@ h1 {
   position: relative;
 }
 .gallery .resume-item ul{
- color: #fff;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+}
+.gallery .resume-item ul:hover{
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.3rem;
+  color: rgb(5, 231, 247);
 }
 
 .gallery .resume-item::before {
@@ -803,13 +859,26 @@ h1 {
 }
 
 .gallery .res-year {
-  background: #fff;
+  background: rgb(255, 255, 255);
   width: 100px;
   text-align: center;
   color: #000;
   padding: 2px 0px;
   margin-bottom: 6px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.gallery .res-year:hover {
+  background: rgb(0, 0, 0);
+  width: 100px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 2px 0px;
+  margin-bottom: 6px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.9rem;
   font-weight: 500;
 }
 
@@ -833,7 +902,8 @@ h1 {
   --speed: 1000ms;
 }
 .popular.popular {
-  background: url(./images/market.png);
+  background: url(./images/nave2.png);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 body .popular {
   font-family: 'Roboto', sans-serif;
@@ -997,9 +1067,8 @@ body .popular {
 
 /*START NFT ITEMS*/
 .gallerys {
-  background: url(./images/roadmap_bg.jpg);
-  width: 100%;
-  height: 100%;
+  background: url(./images/nave3.png);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1007,7 +1076,6 @@ body .popular {
   margin: 0;
   overflow-x: hidden;
   z-index: 2;
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -1016,11 +1084,29 @@ body .popular {
   flex-wrap: wrap;
   gap:1.5rem;
 }
+.gallerys .glit h5{
+  color: #fff;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  top:50px;
+
+  
+
+
+  text-shadow: 0.05em 0 0 rgba(0,178,255,1) ,
+    -0.025em -0.05em 0 rgba(0,178,255,1) ,
+    0.025em 0.05em 0 white;
+}
 
 .gallerys .box-container .box{
+  top: 70px;
+  right: -5px;
+  
   height:40rem;
   flex:1 1 20rem;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   border-radius: .5rem;
   position: relative;
   overflow: hidden;
@@ -1106,7 +1192,7 @@ body .popular {
 
 .review .box-container .box p{
   font-size: 1.5rem;
-  color:#eee;
+  color:rgb(255, 255, 255);
   padding:1rem 0;
 }
 
@@ -1115,14 +1201,12 @@ body .popular {
 /*START PARTNER*/
 
 .order.order{
-  background: url(./images/roadmap_bg.jpg);
+  background-color: black;
+  min-height: 50vh;
   
 }
-.order{
-  font-family: 'open sans';
-}
 
-.contenedor-imagenes{  
+.row .contenedor-imagenes{  
   display:flex;
   margin: auto;
   justify-content: space-around;
@@ -1132,23 +1216,13 @@ body .popular {
 }
 
 
-.imagen img{
+.order .imagen img{
   width:330px;
   height:77px;
   float:left;
-   margin:10px 10px 0 0;
+ margin:10px 10px 0 0;
 }
 
-.overlay{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background:rgba(0, 0, 0, 0.781) ;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  transition: .5s ease;
-}
 
 @media screen and (max-width:1000px){
   .contenedor-imagenes{

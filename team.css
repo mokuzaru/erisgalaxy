@@ -123,7 +123,7 @@
   margin: 8px 10px;
   position: relative;
   width: calc(25% - 20px);
-  min-height: 400px;
+  min-height:200px;
 
   float: left;
   box-sizing: border-box;

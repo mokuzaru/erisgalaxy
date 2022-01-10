@@ -92,7 +92,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.7rem;
+  font-size: 3.5rem;
 }
 
 svg circle {
@@ -546,9 +546,8 @@ header .navbar a:hover {
   gap: 1.5rem;
 }
 
-.speciality .box-container .box .image {
-  height: 70%;
-  width: 50%;
+.speciality .box-container .box .video {
+
   text-align: center;
 
   margin: 50px auto;
@@ -639,19 +638,34 @@ header .navbar a:hover {
   padding: 1rem;
 }
 
-.steps .box img {
+.steps .box .img1 {
+  width: 50%;
+  height: 60%;
   float: right;
+}
+
+.steps .box img {
+  position: relative;
+  top: -5em;
+  padding: 10px;
+  margin: 120px; 
+  
+  float: right; 
+ 
+  
+
   border-radius: 50%;
-  border: 1rem solid rgb(187, 184, 184);
+  border: 0.5rem solid rgb(187, 184, 184);
 }
 
 .steps .box .glit h3 {
   color: rgb(255, 255, 255);
   font-family: "Saira Semi Condensed", sans-serif;
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
+  
 
   text-shadow: 0.05em 0 0 rgba(0, 178, 255, 1),
     -0.025em -0.05em 0 rgba(0, 178, 255, 1), 0.025em 0.05em 0 white;
@@ -664,7 +678,7 @@ header .navbar a:hover {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  top: 50px;
+  top: 10px;
 
   text-shadow: 0.05em 0 0 rgba(0, 178, 255, 1),
     -0.025em -0.05em 0 rgba(0, 178, 255, 1), 0.025em 0.05em 0 white;
@@ -855,7 +869,7 @@ h1 {
   --speed: 1000ms;
 }
 .popular.popular {
-  background: url(./images/nave2.png);
+  background: url(./images/nave6.png);
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 body .popular {
@@ -884,12 +898,12 @@ body .popular {
 }
 
 .split.left h1 {
-  color: rgb(7, 0, 0);
+  color: rgb(1, 41, 201);
   font-size: 2.5rem;
   font-weight: bold;
 }
 .split.left p {
-  color: rgb(0, 0, 0);
+  color: rgb(1, 41, 201);
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -940,13 +954,13 @@ body .popular {
 .split {
   position: absolute;
   width: 50%;
-  height: 100%;
+  height: 150%;
   overflow: hidden;
 }
 
 .split.left {
   left: 0;
-  background: url("./images/ps.jpg");
+  background: url("./images/Grimer\ Vs\ Todos.png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -959,11 +973,13 @@ body .popular {
   position: absolute;
   width: 100%;
   height: 100%;
+  background-color: rgb(55, 55, 56);
+  opacity: 0.2;
 }
 
 .split.right {
   right: 0;
-  background: url("./images/xbox.jpg");
+  background: url("./images/Grimer\ Vs\ Todos\ 2\ .png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -976,6 +992,8 @@ body .popular {
   position: absolute;
   width: 100%;
   height: 100%;
+  background-color: rgb(27, 27, 255);
+  opacity: 0.2;
 }
 
 .split.right,
@@ -1153,7 +1171,8 @@ body .popular {
 .order.order {
   padding-top: 40px;
   background-color: black;
-  min-height: 50vh;
+  min-height: 60vh;
+
 }
 
 .row .contenedor-imagenes {
@@ -1167,7 +1186,23 @@ body .popular {
 
 .order .imagen img {
   width: 300px;
-  height: 77px;
+  height: 70px;
+  float: right;
+  left: 20px;
+  margin: 10px 10px 0 0;
+}
+
+.order .imagen1 img {
+  width: 330px;
+  height: 100px;
+  float: right;
+  left: 20px;
+  margin: 10px 10px 0 0;
+}
+
+.order .imagen2 img {
+  width: 300px;
+  height: 60px;
   float: right;
   left: 20px;
   margin: 10px 10px 0 0;
@@ -1257,7 +1292,7 @@ body .popular {
 
 .footer .credit {
   padding: 2.5rem 1rem;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: normal;
   font-size: 2rem;
 }

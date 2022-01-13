@@ -168,6 +168,7 @@
   .row .none {
     width: calc(50% - 20px);
     min-height: 600px;
+    display: none;
   }
 }
 

@@ -16,6 +16,10 @@
   transition: all 0.2s linear;
 }
 
+.box{
+  width: 100%;
+}
+
 *selection {
   background: var(--red);
   color: #fff;
@@ -440,7 +444,7 @@ header .navbar a:hover {
   position: relative;
   top: 130px;
   width: 100%;
-  right: 25%;
+ 
   padding: 1rem;
   animation: float 3.4s linear infinite;
 }
@@ -554,7 +558,7 @@ header .navbar a:hover {
 .speciality .box-container .box .video {
 
   text-align: center;
-
+  width: 100%;
   margin: 50px auto;
   display: block;
 }
@@ -1168,7 +1172,7 @@ body .popular {
 .order.order {
   padding-top: 40px;
   background-color: black;
-  min-height: 75vh;
+  min-height: 40vh;
 
 }
 
@@ -1267,6 +1271,7 @@ body .popular {
   }
   .contenedor-imagenes .imagen {
     width: 70%;
+    margin-left: 100px;
   }
 
   .box {
@@ -1369,15 +1374,16 @@ body .popular {
 
 @media (max-width: 850px) {
   .review {
-    height: 1300px;
+    height: 1500px;
+  }
+}
+@media (max-width: 750px) {
+  .review {
+    height: 1350px;
   }
 }
 
-@media (max-width: 850px) {
-  .review {
-    height: 1600px;
-  }
-}
+
 
 @media (max-width: 600px) {
   .review {
@@ -1391,7 +1397,7 @@ body .popular {
 }
 @media (max-width: 380px) {
   .review {
-    height: 3800px;
+    height: 4100px;
   }
 }
 @media (max-width: 340px) {
@@ -1465,3 +1471,8 @@ body .popular {
     0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 1),
     0 0 180px rgba(38, 104, 127, 1);
 }
+
+.order  h1 {
+  font-size: 40px;
+}
+

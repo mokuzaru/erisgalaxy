@@ -1119,6 +1119,7 @@ body .popular {
 
 .review {
   background: url(./images/market.png);
+  height: 1450px;
 }
 
 .review .box-container {
@@ -1362,24 +1363,24 @@ body .popular {
 }
 @media (max-width: 1370px) {
   .review {
-    height: 1330px;
+    height: 1600px;
   }
 }
 
 @media (max-width: 992px) {
   .review {
-    height: 1600px;
+    height: 2200px;
   }
 }
 
 @media (max-width: 850px) {
   .review {
-    height: 1500px;
+    height: 1800px;
   }
 }
 @media (max-width: 750px) {
   .review {
-    height: 1350px;
+    height: 1600px;
   }
 }
 
@@ -1387,22 +1388,22 @@ body .popular {
 
 @media (max-width: 600px) {
   .review {
-    height: 2000px;
+    height: 2100px;
   }
 }
 @media (max-width: 470px) {
   .review {
-    height: 1800px;
+    height: 2100px;
   }
 }
 @media (max-width: 380px) {
   .review {
-    height: 4100px;
+    height: 4500px;
   }
 }
 @media (max-width: 340px) {
   .review {
-    height: 3400px;
+    height: 3500px;
   }
 }
 

@@ -8,7 +8,6 @@
 }
 
 .contenedor_tarjeta {
-    margin: 20px;
 
 	
 	top: 70px;
@@ -135,7 +134,8 @@ figure .trasera p {
 	padding: 1rem 0;
 }
 
-@media screen and (max-width: 992px) { 
+
+@media screen and (max-width: 720px) { 
 	figure .trasera {
 		/*position: relative;*/
 		backface-visibility:visible;

@@ -1118,8 +1118,8 @@ body .popular {
 /*START TEAM*/
 
 .review {
-  background: url(./images/market.png);
-  height: 1450px;
+  background: url(./images/market.png) ;
+
 }
 
 .review .box-container {
@@ -1363,34 +1363,52 @@ body .popular {
 }
 @media (max-width: 1370px) {
   .review {
-    height: 1600px;
+    height: 1300px;
   }
 }
 
 @media (max-width: 992px) {
   .review {
-    height: 2200px;
+    height: 1350px;
   }
 }
 
 @media (max-width: 850px) {
   .review {
-    height: 1800px;
+    height: 1300px;
   }
 }
 @media (max-width: 750px) {
   .review {
-    height: 1600px;
+    height: 1300px;
+  }
+}
+@media (max-width: 720px) {
+  .review {
+    height: 1500px;
   }
 }
 
+@media (max-width: 650px) {
+  .review {
+    height: 1500px;
+  }
+}
 
 
 @media (max-width: 600px) {
   .review {
-    height: 2100px;
+    height: 2400px;
   }
+
 }
+@media (max-width: 575px) {
+  .review {
+    height: 2170px;
+  }
+
+}
+
 @media (max-width: 470px) {
   .review {
     height: 2100px;
@@ -1403,7 +1421,7 @@ body .popular {
 }
 @media (max-width: 340px) {
   .review {
-    height: 3500px;
+    height: 4000px;
   }
 }
 

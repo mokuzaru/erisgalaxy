@@ -33,7 +33,7 @@
   padding: 10px;
   margin: 8px 10px;
   position: relative;
-  width: calc(25% - 20px);
+  width: calc(20% - 20px);
   min-height: 250px;
 
   float: left;
@@ -131,22 +131,22 @@
 }
 @media (max-width: 1030px) {
   .row .columm {
-    width: calc(25% - 20px);
+    width: calc(20% - 20px);
   }
 
   .row .none {
-    width: calc(25% - 20px);
+    width: calc(20% - 20px);
     min-height: 400px;
   }
 }
 
 @media (max-width: 1370px) {
   .row .columm {
-    width: calc(32% - 20px);
+    width: calc(25% - 20px);
   }
 
   .row .none {
-    width: calc(30% - 20px);
+    width: calc(25% - 20px);
     min-height: 400px;
   }
 }
@@ -158,7 +158,7 @@
   }
 
   .row .columm {
-    width: calc(30% - 20px);
+    width: calc(25% - 20px);
   }
 
   .row .columm:hover:before .none {

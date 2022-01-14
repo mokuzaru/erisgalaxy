@@ -1366,10 +1366,15 @@ body .popular {
     height: 1300px;
   }
 }
+@media (max-width: 1052px) {
+  .review {
+    height: 1200px;
+  }
+}
 
 @media (max-width: 992px) {
   .review {
-    height: 1350px;
+    height: 1450px;
   }
 }
 

@@ -146,7 +146,7 @@
   }
 
   .row .none {
-    width: calc(25% - 20px);
+    width: calc(30% - 20px);
     min-height: 400px;
   }
 }

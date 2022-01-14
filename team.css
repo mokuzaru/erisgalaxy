@@ -159,6 +159,8 @@
 
   .row .columm {
     width: calc(25% - 20px);
+
+    
   }
 
   .row .columm:hover:before .none {

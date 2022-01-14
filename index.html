@@ -13,7 +13,9 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="card.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
 
 </head>
 <body>
@@ -161,7 +163,7 @@
 <!-- HISTORY section ends -->
 
 
-<!-- GAMEPLAY section starts  -->
+<!-- GAMEPLAY section STARTS  -->
 
 <section class="popular" id="popular">
 
@@ -169,32 +171,44 @@
 
     <div class="container">
 
-        <div class="split left">
-          <h1>ALL VS GRIMER</h1>
-          <p>A simple battle mode, where the six race users must kill the Grimer and make sure the ship does not lose its functionalities. This mode will be the easiest for races, and more dynamic for those who play with the Grimer.</p>
-          <p>From the point of view of the races, it is a game mode adapted to have fun and have a good time without having to be so alert unlike other modes.</p>
-           
-         <p>This mode can only be played as a “normal game”.</p>
-          <a href="#" class="btn">WATCH</a>
-        </div>
+        <div class="row">
 
-        <div class="split right">
-          <h1>ALL VS ALL</h1>
-          <p>This game mode is a challenge for everyone, they must know how to use their resources and skills well, be prudent with their movements, it is not a mode for newbies, entering here is for those people who want to show what they are made of.</p>
-          
-          <p>This mode can be played both as a “normal game” and as a “ranked game”.</p>
-          <a href="#" class="btn">WATCH</a>
-        </div>
+                <div class="carousel center-align">
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">ALL VS GRIMER</h2>
+                        <div class="linea-division"></div>                   
+                        <p class="sabor">A simple battle mode, where the six race users must kill the Grimer and ensure that the ship does not lose its functionality. This mode is going to be the easiest for the races, and the most dynamic for the Grimer player. From the point of view of the races, it is a game mode adapted to have fun and have a good time without having to be so alert, unlike other modes.</p>
+                        <!--<img src="./images/Grimer Vs Todos 2 .png"width="100" height="100" alt="">-->
+                    </div>
 
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">2 VS 2 VS 2 VS GRIMER</h2>
+                        <div class="linea-division"></div>                   
+                        <p class="sabor">A more promising mode where there will be three pairs of users fighting each other, also adding the Grimer that will be stalking them. This mode, unlike the previous one, is easier for the Grimer, who will be waiting for the pairs of races to confront each other, so that he can ambush the winner (who will probably be weakened). A little more adrenaline for the races, who must each play with an ally and fight against two other duos, and always taking into account the possibility of the Grimer appearing.</p>
+                       <!--<img src="./images/Grimer Vs 2 Vs 2 Vs 22.png"width="50" height="50" alt="">-->
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">ALL VS ALL</h2>
+                        <div class="linea-division"></div>                   
+                        <p class="sabor">In this game mode each user will play individually, being a challenge for everyone equally. Users must know how to use their resources, skills and be careful with their movements. It is not a mode for newbies, entering here is for those people who want to show what they are made of..</p>
+                        <!--<img src="./images/Grimer Vs Todos.png"width="100" height="100" alt="">-->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </div>
-  
-      <script src="gameplay.js"></script>
 
-    <!--<div class="box-container">-->
+    <!-- Materialize.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JS Main -->
+    <script src="./main.js"></script>
 
 </section>
 
-<!--GAMEPLAY section ends -->
+<!--GAMEPLAY section ENDS -->
 
 
 
@@ -344,7 +358,7 @@
     <div class="glit">
       <h5>Earn your NFTs item by playing the game and sell it on the marketplace to make money</h5>
     </div> 
-
+<!--
     <div class="box-container">
 
         <div class="box">
@@ -385,7 +399,67 @@
         <div class="box-none ">
             
         </div>
+        
+    </div>-->
+    <div class="box-container">
+        <div class="contenedor">
+            <div class="contenedor_tarjeta">
+                <a href="">
+                    <figure id="tarjeta">
+                        <img src="images/A29.png" class="frontal">
+                        <figcaption class="trasera">
+                            <h2 class="titulo">A29 - DROID MINING</h2>
+                            <hr>
+                            <p>Poder de minado 1600</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="contenedor_tarjeta">
+                <a href="">
+                    <figure id="tarjeta">
+                        <img src="images/M29.png" class="frontal">
+                        <figcaption class="trasera">
+                            <h2 class="titulo">M29 - DROID MINING</h2>
+                            <hr>
+                            <p>Poder de minado 800</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="contenedor_tarjeta">
+                <a href="">
+                    <figure id="tarjeta">
+                        <img src="images/F19.png" class="frontal">
+                        <figcaption class="trasera">
+                            <h2 class="titulo">F19 - DROID MINING</h2>
+                            <hr>
+                            <p>Poder de minado 400</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="contenedor_tarjeta">
+                <a href="">
+                    <figure id="tarjeta">
+                        <img src="images/Y31.png" class="frontal">
+                        <figcaption class="trasera">
+                            <h2 class="titulo">Y31 - DROID MINING</h2>
+                            <hr>
+                            <p>Poder de minado 200</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
 
+        
     </div>
 </section>
 
